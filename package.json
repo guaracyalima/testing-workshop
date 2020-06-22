@@ -1,0 +1,36 @@
+{
+  "name": "testing-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx karma start",
+    "test-prod": "karma start --single-run",
+    "jasmine": "npx jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "babel-polyfill": "^6.26.0",
+    "intl": "^1.2.5",
+    "karma-babel-preprocessor": "^8.0.1",
+    "karma-cli": "^2.0.0",
+    "karma-coverage-istanbul-reporter": "^3.0.3",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "proxyquireify": "^3.2.1",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "browserify": "^13.3.0",
+    "jasmine": "^2.5.3",
+    "karma": "^1.4.0",
+    "karma-browserify": "^5.1.0",
+    "karma-coverage": "^2.0.2",
+    "karma-jasmine": "^1.1.0",
+    "karma-requirejs": "^1.1.0",
+    "watchify": "^3.8.0"
+  }
+}
